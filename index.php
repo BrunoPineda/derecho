@@ -111,7 +111,14 @@ corresponda. Le agradezco su sinceridad”
                 <option value="0">No</option>
             </select>
         </div>
-        <button data-aos="zoom-out" type="button" id="enviar" class="btn btn-primary">Enviar</button>
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 4: ¿PREGUNTA?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <button data-aos="fade-up-left" type="button" id="enviar" class="btn btn-primary">Enviar</button>
     </form>
     <div id="info"></div>
     
