@@ -19,11 +19,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $pregunta17 = isset($_POST["pregunta17"]) ? intval($_POST["pregunta17"]) : 0;
     $pregunta18 = isset($_POST["pregunta18"]) ? intval($_POST["pregunta18"]) : 0;
     $pregunta19 = isset($_POST["pregunta19"]) ? intval($_POST["pregunta19"]) : 0;
+    $pregunta20 = isset($_POST["pregunta20"]) ? intval($_POST["pregunta20"]) : 0;
+    $pregunta21 = isset($_POST["pregunta21"]) ? intval($_POST["pregunta21"]) : 0;
 
 
     $total = $pregunta1 + $pregunta2 + $pregunta3 + $pregunta4 + $pregunta5 + $pregunta6 + $pregunta7 + $pregunta8 +
              $pregunta9 + $pregunta10 + $pregunta11 + $pregunta12 + $pregunta13 + $pregunta14 + $pregunta15 + $pregunta16
-             + $pregunta17 + $pregunta18 + $pregunta19 ;
+             + $pregunta17 + $pregunta18 + $pregunta19 + $pregunta20  + $pregunta21;
 
     if($total <= 7){
         echo "LEVE";
