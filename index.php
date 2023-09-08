@@ -91,33 +91,170 @@ corresponda. Le agradezco su sinceridad”
 <br>
     <form id="formulario">
         <div data-aos="flip-left" class="form-group">
-            <label>Pregunta 1: ¿Estás de acuerdo?</label>
+            <label>Pregunta 1: ¿En el último año, la violencia física contra usted ha aumentado en gravedad o frecuencia?</label>
             <select name="pregunta1" class="form-control">
                 <option value="1">Sí</option>
                 <option value="0">No</option>
             </select>
         </div>
         <div data-aos="flip-left" class="form-group">
-            <label>Pregunta 2: ¿Aceptas los términos?</label>
+            <label>Pregunta 2: ¿Él tiene algún arma o podría conseguir un arma con facilidad ?(pistola,cuchillo, machete, u otros)</label>
             <select name="pregunta2" class="form-control">
                 <option value="2">Sí</option>
                 <option value="0">No</option>
             </select>
         </div>
         <div data-aos="flip-left" class="form-group">
-            <label>Pregunta 3: ¿Te gustaría recibir actualizaciones?</label>
+            <label>Pregunta 2a: ¿Han vivido juntos durante el último año?(si dice NO, pasar a la pregunta 4)</label>
             <select name="pregunta3" class="form-control">
                 <option value="3">Sí</option>
                 <option value="0">No</option>
             </select>
         </div>
         <div data-aos="flip-left" class="form-group">
-            <label>Pregunta 4: ¿PREGUNTA?</label>
+            <label>Pregunta 3: Usted me dice que han vivido juntos en el último año.¿Siguen juntos o lo ha dejado? (Si siguen viviendo juntos marcar SÍ; si luego de vivir juntos lo ha dejado marcar NO)</label>
             <select name="pregunta4" class="form-control">
                 <option value="5">Sí</option>
                 <option value="0">No</option>
             </select>
         </div>
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 4: ¿Actualmente , él tiene trabajo estable?(si ella no sabe, no marcar nada)</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 5:¿Alguna vez él ha usado o la ha amenazado con un arma(pistola, cuchillo, machete u otros)? </label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 5a: Si su respuesta fue “Sí”, ¿fue con pistola o cuchillo?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 6: Si su respuesta fue “Sí”, ¿fue con pistola o cuchillo?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 7: ¿Alguna vez usted lo denunció por violencia familiar (porque él le pegó)ante la comisaría, fiscalía, juzgado o ante alguna autoridad comunal?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 8: ¿Él la ha obligado alguna vez a tener relaciones sexuales?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 9: ¿Él ha intentado ahorcarla?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 10: ¿Él consume drogas?Por ejemplo, como la marihuana, pasta básica, cocaína, u otras.</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 11: ¿Él es alcohólico o tiene problemas con el alcohol (trago o licor)?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 12: ¿Le controla la mayoría o todas sus actividades diarias? Por ejemplo, no le deja que vea a sus familiares o amistades, le controla cuánto dinero puede gastar, etc.</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 13: ¿Él se pone celoso de forma constante y violenta? Por ejemplo, le dice: “Si no eres mía, no serás de nadie” u otras similares.</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 14: ¿Cuándo usted estuvo embarazada, alguna vez él la golpeó?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 15: ¿Alguna vez él ha amenazado o ha intentado suicidarse?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 16: ¿Él ha amenazado con hacerle daño a sus hijos?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 17: ¿Cree que él es capaz de matarla?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 18: ¿Él realiza alguna de las siguiente acciones?: La llama insistentemente, le deja mensajes en su teléfono en redes sociales o destruye sus cosas (celular, ropa u otro)</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 19: ¿Alguna vez usted ha intentado o ha amenazado con quitarse la vida?</label>
+            <select name="pregunta4" class="form-control">
+                <option value="5">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+
+
         <button data-aos="fade-up-left" type="button" id="enviar" class="btn btn-primary">Enviar</button>
     </form>
     <div id="info"></div>
