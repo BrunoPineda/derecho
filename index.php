@@ -163,20 +163,50 @@ corresponda. Le agradezco su sinceridad”
                 <option value="0">No</option>
             </select>
         </div>
+        <div data-aos="flip-left" class="form-group">
+            <label>Pregunta 5: ¿Usted ah ......?</label>
+            <select name="pregunta5" class="form-control">
+                <option value="3">Sí</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">Número de hijos/as menores:</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">Número de ingresos/as menores:</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="ingresos" placeholder="Escribe aqui">
+                    </div>
+                </div>
         <button data-aos="fade-up-left" type="button" id="enviar" class="btn btn-primary">Enviar</button>
         <div>-----------------</div>
          
     </form>
     <div id="info"></div>
-    
+    <h2 class="titulo-3d">ANEXOS COMPLEMENTARIOS: FACTORES DE VULNERABILIDAD Y CARACTERISTICAS DE UBICACION, ACTIVIDADES Y SEÑAS FISICAS</h2>
+    <div class="bold mt-4" data-aos="fade-up-right" style="font-weight: bold; font-size: larger;">Factores de vulnerabilidad</div> 
+    <br>   
+    <div data-aos="fade-down-right">
+      lnstrucciones:Mediante este anexo se recogen factores de vulnerabilidad que inciden en la continuidad de la violencia.Debe ser
+      "aplicada por el/la operador/a policial lnmcdiatamcntc despuós de aplicar elinstrumento de valoración del riesgo. En caso quela 
+      persona denunciante no presentela condición ala cual se refiere la pregunta de este anexo se marcar ""no aplica .Cuando los factores 
+      de vulnerabilidad estén presentes en la victima,deben ser tomados en cuenta para ampliarlas medidas de protección y cautelares en la 
+      etapa de protección del proceso."
+</div>
+    </br>
     <div class="container mt-5">
-        <h1 class="mb-4">Pregunta:</h1>
-        <div class="row">
+        <h1 class="mb-4">VIOLENCIA ECONOMICA O PATRIMONIAL</h1>
+         <h3>1. ¿depende economicamente de su pareja?</h3>
+         <div class="row">
             <div class="col-md-4 mb-3">
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
                     <label class="form-check-label" for="opcion1">
-                        Opción 1: Python
+                        Si
                     </label>
                 </div>
             </div>
@@ -185,7 +215,7 @@ corresponda. Le agradezco su sinceridad”
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
                     <label class="form-check-label" for="opcion2">
-                        Opción 2: JavaScript
+                        No
                     </label>
                 </div>
             </div>
@@ -194,11 +224,256 @@ corresponda. Le agradezco su sinceridad”
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
                     <label class="form-check-label" for="opcion3">
-                        Opción 3: Java
+                        Compartimos Gastos
+                    </label>
+                </div>
+            </div>
+         </div>
+         <h3>2. ¿su pareja o ex pareja cumple puntualmente con atender los gastos de alimentacion suyo y/o de sus hijos/as?</h3>
+         <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="GRUPO2" id="id2delgrupo" value="si">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="GRUPO2" id="id2delgrupo2" value="no">
+                    <label class="form-check-label" for="opcion2">
+                        No
+                    </label>
+                </div>
+            </div>
+         <h3>3. ¿Piensa o tuvo que interponerle una demanda de alimentos?</h3>
+         <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si piensa interponer demanda
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        Si, ya interpuso demanda
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
+                    <label class="form-check-label" for="opcion3">
+                        No
+                    </label>
+                </div>
+            </div>
+         </div>
+         <h3>4. ¿Su pareja o expareja ha realizado o rea liza acciones para apropiarse de sus bienes (casa, dinero,
+                 carro,animales,artefactos,sueldo, negocio u otros bienes)? ¿o le restringe o impide el uso de los?</h3>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si 
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
+                    <label class="form-check-label" for="opcion3">
+                        No aplica porque no tiene  bienes materiales
                     </label>
                 </div>
             </div>
         </div>
+        <div class="container mt-5">
+        <h1 class="mb-4">ORIENTECION SEXUAL</h1>
+         <h3>5. ¿Su pareja o ex pareja la agredido, insultado y/o excluye (discriminado) por su orienteacion sexual?</h3>
+         <h4>La victima puede puede reservarse el derecho a contestar</h4>
+         <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
+                    <label class="form-check-label" for="opcion3">
+                        No aplica
+                    </label>
+                </div>
+            </div>
+         </div>
+         </div>
+        <div data-aos="flip-left" class="form-group">
+            <h3>Pregunta 6: ¿Su pareja o ex pareja le humilla excluye (discrimina) por su cosmovision (forma de interpretar el mundo), lengua (lenguas indigenas, acento y forma de hablar un
+                lengua), fenotipo (rasgos, fisicos y/o color de piel), indumentaria (vestimente, adornos y accesorios) e identidad etnica (pertenencia a grupo etnico)? (si su respuesta es si especifique)
+            </h3>
+            <select name="pregunta 6" class="form-control">
+                <option value="0">Sí, en el ambito etnico de su pareja</option>
+                <option value="0">Sí, en el ambito etnico de ella</option>
+                <option value="0">Sí, en cualquier otro ambito</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="container mt-5">
+        <h1 class="mb-4">DISCAPACIDAD</h1>
+         <h3>Si la primera seccion (Datos Generales) identifico que la persona no presenta discapacidad, pase a la pregunta 8</h3>
+         <h3>7. ¿Su pareja o ex pareja le humilla o excluye (discrimina) por estar en situacion de discapacidad que le impide realizar con facilidad las actividades de la vida diaria?</h3>
+         <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
+                    <label class="form-check-label" for="opcion3">
+                        No aplica
+                    </label>
+                </div>
+            </div>
+         </div>
+         </div>
+         <div class="container mt-5">
+        <h1 class="mb-4">Embarazo(en caso de responder afrimativamente a la clasificacion del riesgo sube un nivel)</h1>
+         <h3>8. ¿Esta embarazada?</h3>
+         <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No (si respondio no saltar las siguientes preguntas)
+                    </label>
+                </div>
+            </div>
+         </div>
+         </div>
+         <h3>9. ¿Su pareja le ha amenazada con abandonarle o su ex pareja le ha abandonado porque esta embarazada?</h3>
+         <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No (si respondio no saltar las siguientes preguntas)
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
+                    <label class="form-check-label" for="opcion3">
+                        No aplica porque no esta embarazada
+                    </label>
+                </div>
+            </div>
+         </div>
+         </div>
+         <h3>10. ¿Su pareja o ex pareja le golpea o le ha golpeado el vientre?</h3>
+         <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No (si respondio no saltar las siguientes preguntas)
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
+                    <label class="form-check-label" for="opcion3">
+                        No aplica porque no esta embarazada
+                    </label>
+                </div>
+            </div>
+         </div>
+         </div>
+         <div class="bold mt-4" data-aos="fade-up-right" style="font-weight: bold; font-size: larger;">Caracteristicas de ubicacion, actividades y señas fisicas</div> 
+         <div data-aos="fade-down-right">
+         Instrucciones: la presente información deberá obtenerse de la víctima en forma na rrativa y explicativa que sirva a la policía para identificar 
+         ubicar al agresor y otros que considere riesgo a la victima."
+         </div>
+         <div class="bold mt-4" data-aos="fade-up-right" style="font-weight: bold; font-size: larger;">Ubicacion</div> 
+
 
         <div class="container mt-5">
         <h1 class="titulo-3d">Datos Generales</h1>
@@ -444,6 +719,24 @@ corresponda. Le agradezco su sinceridad”
 
         // Función para mostrar información según la opción seleccionada
         function mostrarInformacion(opcion) {
+            var infoDiv = $("#info");
+            var informacion = "";
+
+            // Definir la información para cada opción
+            if (opcion === "opcion1") {
+                informacion = "Python es un lenguaje de programación versátil y fácil de aprender.";
+            } else if (opcion === "opcion2") {
+                informacion = "JavaScript es ampliamente utilizado para desarrollo web y aplicaciones interactivas en el navegador.";
+            } else if (opcion === "opcion3") {
+                informacion = "Java es un lenguaje de programación utilizado en desarrollo de aplicaciones empresariales y móviles.";
+            } else {
+                informacion = "Selecciona una opción para ver más información.";
+            }
+
+            // Actualizar el contenido del div de información
+            infoDiv.html("<p>" + informacion + "</p>");
+        }
+        function mostrarInformacion2(opcion) {
             var infoDiv = $("#info");
             var informacion = "";
 
