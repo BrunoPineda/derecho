@@ -473,7 +473,23 @@ corresponda. Le agradezco su sinceridad”
          ubicar al agresor y otros que considere riesgo a la victima."
          </div>
          <div class="bold mt-4" data-aos="fade-up-right" style="font-weight: bold; font-size: larger;">Ubicacion</div> 
-
+         <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">1. Si usted vive con el agresor, por favor reitéreme su dirección y digame algunas características de la
+                        vivienda  (casa,departamento,condominio, edificio  familiar,color,piso,etc.)  y  referencias (cercanía  a
+                        qué avenidas,comercios, u otros que permitan ubicar el lugar) para poder ubicarla.</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
+                    </div>
+                </div>
+         <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">2. ¿usted conoce dónde vive el denunciado? Si es así,dígame la dirección y algunas características de
+                         esa vivienda (color, piso, reja, etc.) y referencias (cercanía a qué avenidas, comercios, u otros que
+                         permitan ubicar el lugar) que permitan ubicarlo.</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
+                    </div>
+                </div>
+ 
 
         <div class="container mt-5">
         <h1 class="titulo-3d">Datos Generales</h1>
