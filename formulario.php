@@ -19,12 +19,12 @@ echo $_SESSION['idUser'];
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+
 </head>
 
 <body class="gradient-background">
-<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
 <style>
 
         * {
@@ -104,13 +104,13 @@ echo $_SESSION['idUser'];
         }
  
         .swal2-popup {
-        max-width: 100%;
-        width: 100%;
-        left: 0 !important;
-        margin: 0 !important;
-        transform: none !important;
-        top: 0 !important;
-       }
+            max-width: 100%;
+            width: 100%;
+            left: 0 !important;
+            margin: 0 !important;
+            transform: none !important;
+            top: 0 !important;
+        }
 
         .container-fluid {
             display: flex;
@@ -166,7 +166,6 @@ echo $_SESSION['idUser'];
                 );
             }
         }
-  
         .titulo-3d {
             font-size: 3em;
             text-align: center;
@@ -175,31 +174,30 @@ echo $_SESSION['idUser'];
             text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
             margin-bottom: 30px;
         }
-   
     </style>
- <script>
-    Swal.fire({
-  icon: 'info',
-  html: `
-    <div data-aos="zoom-in" class="container-fluid">
-        <h2 class="border">Ficha Web de Valoración de Riesgo en Mujeres Víctimas de Violencia de Pareja</h2>
-        <h2 class="wave">Ficha Web de Valoración de Riesgo en Mujeres Víctimas de Violencia de Pareja</h2>
-    </div>
-  `,
-  showCloseButton: true,
-  showCancelButton: true,
-  focusConfirm: false,
-  confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
-  confirmButtonAriaLabel: 'Thumbs up, great!',
-  cancelButtonText: '<i class="fa fa-thumbs-down"></i>',
-  cancelButtonAriaLabel: 'Thumbs down'
-});
+    <script>
+        Swal.fire({
+    icon: 'info',
+    html: `
+        <div data-aos="zoom-in" class="container-fluid">
+            <h2 class="border">Ficha Web de Valoración de Riesgo en Mujeres Víctimas de Violencia de Pareja</h2>
+            <h2 class="wave">Ficha Web de Valoración de Riesgo en Mujeres Víctimas de Violencia de Pareja</h2>
+        </div>
+    `,
+    showCloseButton: true,
+    showCancelButton: true,
+    focusConfirm: false,
+    confirmButtonText: '<i class="fa fa-thumbs-up"></i> Great!',
+    confirmButtonAriaLabel: 'Thumbs up, great!',
+    cancelButtonText: '<i class="fa fa-thumbs-down"></i>',
+    cancelButtonAriaLabel: 'Thumbs down'
+    });
 
-</script>
+    </script>
  <div class="card-header">
     <ul class="nav nav-pills nav-justified flex-column flex-xl-row nav-wizard">
         <li class="nav-item">
-            <a class="nav-link active" id="wizard1-tab" data-toggle="pill" href="#wizard1" role="tab" aria-controls="wizard1" aria-selected="true">
+            <a class="nav-link" id="wizard1-tab" data-toggle="pill" href="#wizard1" role="tab" aria-controls="wizard1" aria-selected="true">
                 <div class="wizard-step-icon">1</div>
                 <div class="wizard-step-text">
                     <div class="wizard-step-text-name">Paso 1</div>
@@ -209,7 +207,7 @@ echo $_SESSION['idUser'];
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" id="wizard2-tab" data-toggle="pill" href="#wizard2" role="tab" aria-controls="wizard2" aria-selected="false">
+            <a class="nav-link " id="wizard2-tab" data-toggle="pill" href="#wizard2" role="tab" aria-controls="wizard2" aria-selected="false">
                 <div class="wizard-step-icon">2</div>
                 <div class="wizard-step-text">
                     <div class="wizard-step-text-name">Paso 2</div>
@@ -229,7 +227,7 @@ echo $_SESSION['idUser'];
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" id="wizard4-tab" data-toggle="pill" href="#wizard4" role="tab" aria-controls="wizard4" aria-selected="false">
+            <a class="nav-link active" id="wizard4-tab" data-toggle="pill" href="#wizard4" role="tab" aria-controls="wizard4" aria-selected="false">
                 <div class="wizard-step-icon">4</div>
                 <div class="wizard-step-text">
                     <div class="wizard-step-text-name">Paso 4</div>
@@ -242,35 +240,32 @@ echo $_SESSION['idUser'];
 
 <div class="tab-content">
     <div class="tab-pane fade show active" id="wizard1" role="tabpanel" aria-labelledby="wizard1-tab">
-        <!-- Contenido del Paso 1 -->
-        
+        <!-- Contenido del Paso 1 -->        
         <?php include 'parte1.php' ?>
         <button class="btn btn-primary" type="button" data-target="#wizard2" data-toggle="pill">Next</button>
+         
     </div>
     </div>
     <div class="tab-pane fade" id="wizard2" role="tabpanel" aria-labelledby="wizard2-tab">
         <!-- Contenido del Paso 2 -->
         <?php include 'parte2.php' ?>
         <button class="btn btn-primary" type="button" data-target="#wizard3" data-toggle="pill">Next</button>
+         
     </div>
     <div class="tab-pane fade" id="wizard3" role="tabpanel" aria-labelledby="wizard3-tab">
         <!-- Contenido del Paso 3 -->
         <?php include 'parte3.php' ?>
         <button class="btn btn-primary" type="button" data-target="#wizard4" data-toggle="pill">Next</button>
+         
     </div>
     <div class="tab-pane fade" id="wizard4" role="tabpanel" aria-labelledby="wizard4-tab">
         <!-- Contenido del Paso 4 -->
         <?php include 'parte4.php' ?>
         <button class="btn btn-primary" type="button" data-target="#wizard5" data-toggle="pill">Next</button>
+         
     </div>
 </div>
-
-
-        
-        <!-- Información para mostrar -->
-        <div id="info" class="mt-3">
-            <!-- Aquí se mostrará la información seleccionada -->
-        </div>
+ 
     </div>
 
     <!-- Agrega los enlaces a las bibliotecas de jQuery y Bootstrap JS -->
@@ -278,7 +273,7 @@ echo $_SESSION['idUser'];
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
- 
+  
 
 </div>
 
@@ -288,8 +283,24 @@ echo $_SESSION['idUser'];
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 
+<script>
+$(document).ready(function() {
+    $("#enviar").click(function() {
+        $.ajax({
+            type: "POST",
+            url: "calcular.php",
+            data: $("#formulario").serialize(),
+            success: function(response) {
+                $("#info").html(response);
+            }
+        });
+    });
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ 
 <script>
   AOS.init();
 </script>
