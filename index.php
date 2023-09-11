@@ -488,6 +488,95 @@ corresponda. Le agradezco su sinceridad”
                          permitan ubicar el lugar) que permitan ubicarlo.</label>
                         <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
                     </div>
+                    <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">3. ¿El denunciado la busca en su trabajo,centro de estudio u otro lugar que frecuente? Sí es así,indique
+                            las direcciones de esos lugares incluyendo sus referencias (cercanía a qué avenidas,comercios,u otros que permitan ubicar el lugar).</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
+                    </div>
+                    <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">4. ¿en qué otro lugar se puede encontrar al denunciado? Por favor, dígame las direcciones de esos
+                                                    lugares,como la casa de famíliares,amigos,tra bajo,ex parejas,etc.</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
+                    </div>
+                    <h3>Actividades</h3>
+                    <label>5. ¿El denunciado practica algún deporte violento o de peligro (artes marciales u otro)?</label>
+         <div class="row">
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No
+                    </label>
+                </div>
+                <label>6. ¿El denunciado es policía, del Ejército, Fuerzas Armadas o es agente de seguridad, serenazgo o practica algún pasatiempo de riesgo?</label>
+         <div class="row">
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No
+                    </label>
+                </div>
+                <label>7. ¿El denunciado tiene fami liares y/o amistades que han estado en la cárcel o ha tenido problemas con la ley?</label>
+         <div class="row">
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">
+                        Si
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2">
+                        No
+                    </label>
+                </div>
+                <h3>Señas fisicas</h3>
+                </div>
+                    <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">8. Describa la contextura fisicas del denunciado(alto, corpulento, fuerte, etc)</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
+                    </div>
+                    </div>
+                    <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">9. Describa las características físicas del agresor que sirvan para identificarlo,como imágenes actuales
+                                                    del rostro y cuerpo del presunto agresor. ¿Nos puede enseñar o entregar ahora mismo una foto actual de él?</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
+                    </div>
+                    </div>
+                    <div class="col-md-12">
+                    <div data-aos="fade-up-right" class="form-group">
+                        <label for="numero_hijos">10.  ¿sabe  si  el  denunciado  tiene  aleún  problema  de  salud  mental, adicciones  o  si  tiene  algun"
+                                                            tratamiento médico para tales fines?</label>
+                        <input type="text" class="form-control" id="numero_hijos" name="asesinato" placeholder="Escribe aqui">
+                    </div>
+                    
                 </div>
  
 
