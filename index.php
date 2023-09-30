@@ -197,39 +197,50 @@ corresponda. Le agradezco su sinceridad”
       de vulnerabilidad estén presentes en la victima,deben ser tomados en cuenta para ampliarlas medidas de protección y cautelares en la 
       etapa de protección del proceso."
 </div>
-    </br>
-    <div class="container mt-5">
-        <h1 class="mb-4">VIOLENCIA ECONOMICA O PATRIMONIAL</h1>
-         <h3>1. ¿depende economicamente de su pareja?</h3>
-         <div class="row">
-            <div class="col-md-4 mb-3">
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
-                    <label class="form-check-label" for="opcion1">
-                        Si
-                    </label>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-3">
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
-                    <label class="form-check-label" for="opcion2">
-                        No
-                    </label>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-3">
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
-                    <label class="form-check-label" for="opcion3">
-                        Compartimos Gastos
-                    </label>
-                </div>
-            </div>
+<div class="container">
+  <div class="row">
+    <div class="bold-md-12">
+      <h1 class="mt-4">VIOLENCIA ECONOMICA O PATRIMONIAL</h1>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="bold-md-12">
+      <h3>1. ¿Depende económicamente de su pareja?</h3>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
+        <label class="form-check-label" for="opcion1">
+          Si
+        </label>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="opcion" id="opcion2" value="opcion2">
+        <label class="form-check-label" for="opcion2">
+          No
+        </label>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="opcion" id="opcion3" value="opcion3">
+        <label class="form-check-label" for="opcion3">
+          Compartimos Gastos
+        </label>
+      </div>
+    </div>
+  </div>
          </div>
          <h3>2. ¿su pareja o ex pareja cumple puntualmente con atender los gastos de alimentacion suyo y/o de sus hijos/as?</h3>
+    <div class="bold-md-12">
          <div class="row">
             <div class="col-md-4 mb-3">
                 <div class="form-check">
@@ -249,7 +260,9 @@ corresponda. Le agradezco su sinceridad”
                 </div>
             </div>
          <h3>3. ¿Piensa o tuvo que interponerle una demanda de alimentos?</h3>
+         <div class="bold-md-12">
          <div class="row">
+
             <div class="col-md-4 mb-3">
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
@@ -277,9 +290,13 @@ corresponda. Le agradezco su sinceridad”
                 </div>
             </div>
          </div>
+         <div class="bold-md-12">
+                 <div class="row">
          <h3>4. ¿Su pareja o expareja ha realizado o rea liza acciones para apropiarse de sus bienes (casa, dinero,
                  carro,animales,artefactos,sueldo, negocio u otros bienes)? ¿o le restringe o impide el uso de los?</h3>
-        <div class="row">
+                 <div class="bold-md-12">
+                 <div class="row">
+
             <div class="col-md-4 mb-3">
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="opcion" id="opcion1" value="opcion1">
